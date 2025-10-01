@@ -28,7 +28,7 @@ export default function Contact() {
               </div>
               <p className="text-lg text-gray-600 mb-6">
                 Ready to join JSMME? Use the form below to submit your membership application. 
-                Select "Membership Inquiry" in the subject field and provide your business details.
+                Select &quot;Membership Inquiry&quot; in the subject field and provide your business details.
               </p>
               <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-700">
                 <div className="flex items-center">
@@ -130,7 +130,7 @@ export default function Contact() {
                 <h3 className="text-2xl font-bold mb-6 text-gray-900">Send us a Message</h3>
                 <div className="bg-blue-100 border-l-4 border-blue-500 p-4 mb-6">
                   <p className="text-blue-800 text-sm">
-                    <strong>💡 Tip:</strong> For membership applications, select "Membership Inquiry" as your subject 
+                    <strong>💡 Tip:</strong> For membership applications, select &quot;Membership Inquiry&quot; as your subject 
                     and include details about your business size, sector, and specific needs.
                   </p>
                 </div>
@@ -383,7 +383,7 @@ export default function Contact() {
               <h3 className="text-xl font-bold mb-4 text-blue-900">Our Commitment</h3>
               <p className="text-gray-700">
                 We are dedicated to providing accessible, responsive support to SMEs nationwide. 
-                Whether you're in a major city or rural area, our team is committed to helping 
+                Whether you&apos;re in a major city or rural area, our team is committed to helping 
                 your business succeed and thrive in the South African market.
               </p>
             </div>

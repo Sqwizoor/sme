@@ -60,7 +60,7 @@ export default function Membership() {
                 <h3 className="text-2xl font-bold mb-4">Ready to Apply for Membership?</h3>
                 <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
                   Complete our membership application form and take the first step towards joining 
-                  South Africa's premier SME advocacy organization.
+                  South Africa&apos;s premier SME advocacy organization.
                 </p>
                 <Link 
                   href="/contact#membership-form"
@@ -177,7 +177,7 @@ export default function Membership() {
               <div className="bg-white rounded-2xl p-8 shadow-xl border-2 border-blue-100">
                 <h3 className="text-2xl font-bold mb-4 text-gray-900">Experience These Benefits Today</h3>
                 <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-                  Don't wait to secure your business's future. Join JSMME now and immediately access 
+                  Don&apos;t wait to secure your business&apos;s future. Join JSMME now and immediately access 
                   all our comprehensive support services and member benefits.
                 </p>
                 <Link 
@@ -220,7 +220,7 @@ export default function Membership() {
                   <h3 className="text-xl font-semibold mb-2 text-gray-900">Review Process</h3>
                   <p className="text-gray-700">
                     The Executive Committee will consider your application within four weeks of receipt. 
-                    We'll assess your eligibility and alignment with our objectives.
+                    We&apos;ll assess your eligibility and alignment with our objectives.
                   </p>
                 </div>
               </div>
@@ -232,8 +232,8 @@ export default function Membership() {
                 <div>
                   <h3 className="text-xl font-semibold mb-2 text-gray-900">Approval & Welcome</h3>
                   <p className="text-gray-700">
-                    Upon approval, you'll receive your membership number and welcome package. 
-                    You'll immediately gain access to all member benefits and services.
+                    Upon approval, you&apos;ll receive your membership number and welcome package. 
+                    You&apos;ll immediately gain access to all member benefits and services.
                   </p>
                 </div>
               </div>
@@ -245,7 +245,7 @@ export default function Membership() {
                 <div>
                   <h3 className="text-xl font-semibold mb-2 text-gray-900">Active Participation</h3>
                   <p className="text-gray-700">
-                    As a member, you'll have voting rights in general meetings and the opportunity 
+                    As a member, you&apos;ll have voting rights in general meetings and the opportunity 
                     to participate in the governance and direction of the organisation.
                   </p>
                 </div>
@@ -293,7 +293,7 @@ export default function Membership() {
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Join the Movement?</h2>
           <p className="text-xl text-blue-200 mb-8 max-w-2xl mx-auto">
-            Take the first step towards securing your business's future. Join JSMME today 
+            Take the first step towards securing your business&apos;s future. Join JSMME today 
             and become part of a powerful collective voice for SMEs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

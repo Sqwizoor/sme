@@ -23,7 +23,7 @@ export default function About() {
                 To protect and promote the interests of small, medium, and micro enterprises 
                 by providing comprehensive support, advocacy, and representation. We strive to 
                 create a favorable business environment that enables SMEs to thrive and contribute 
-                to South Africa's economic growth.
+                to South Africa&apos;s economic growth.
               </p>
             </div>
             
@@ -48,7 +48,7 @@ export default function About() {
             <div className="bg-white rounded-xl p-8 shadow-lg mb-8">
               <h3 className="text-2xl font-bold mb-4 text-blue-900">A Voluntary, Non-Profit Organisation</h3>
               <p className="text-lg text-gray-700 mb-6">
-                Justice for Small Medium & Micro Enterprises (JSMME) is a voluntary, non-profit employers' 
+                Justice for Small Medium & Micro Enterprises (JSMME) is a voluntary, non-profit employers&apos; 
                 organisation with continued existence, established to serve the interests of SMEs across South Africa.
               </p>
               

@@ -126,7 +126,7 @@ export default function Services() {
               <div className="bg-white rounded-xl p-8 shadow-lg">
                 <h3 className="text-2xl font-bold mb-4 text-blue-900">International Relations</h3>
                 <p className="text-gray-700 mb-4">
-                  We maintain affiliations with international employers' organisations 
+                  We maintain affiliations with international employers&apos; organisations 
                   and the International Labour Organisation (ILO) for global best practices.
                 </p>
                 <ul className="space-y-2 text-gray-600">
