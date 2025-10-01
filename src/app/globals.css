@@ -6,13 +6,13 @@
   --primary-blue: #1e40af;
   --primary-blue-dark: #1e3a8a;
   --primary-blue-light: #3b82f6;
-  --gold-50: #fffef7;
-  --gold-100: #fefce8;
-  --gold-200: #fef3c7;
-  --gold-300: #fcd34d;
-  --gold-400: #f59e0b;
-  --gold-500: #d97706;
-  --gold-600: #b45309;
+  --gold-50: #fefce8;
+  --gold-100: #fef3c7;
+  --gold-200: #fde047;
+  --gold-300: #facc15;
+  --gold-400: #eab308;
+  --gold-500: #ca8a04;
+  --gold-600: #a16207;
 }
 
 body {
@@ -47,7 +47,7 @@ body {
 .to-gold-500 { --tw-gradient-to: var(--gold-500); }
 
 .border-gold-400 { border-color: var(--gold-400); }
-.shadow-gold-500\/25 { box-shadow: 0 25px 50px -12px rgba(217, 119, 6, 0.25); }
+.shadow-gold-500\/25 { box-shadow: 0 25px 50px -12px rgba(202, 138, 4, 0.25); }
 
 /* Smooth scrolling */
 html {

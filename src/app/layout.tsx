@@ -46,27 +46,27 @@ export default function RootLayout({
               <div className="hidden md:flex items-center space-x-8">
                 <Link href="/" className="text-slate-700 hover:text-blue-900 font-medium transition-colors relative group">
                   Home
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gold-400 group-hover:w-full transition-all duration-300"></span>
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-yellow-400 group-hover:w-full transition-all duration-300"></span>
                 </Link>
                 <Link href="/about" className="text-slate-700 hover:text-blue-900 font-medium transition-colors relative group">
                   About
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gold-400 group-hover:w-full transition-all duration-300"></span>
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-yellow-400 group-hover:w-full transition-all duration-300"></span>
                 </Link>
                 <Link href="/services" className="text-slate-700 hover:text-blue-900 font-medium transition-colors relative group">
                   Services
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gold-400 group-hover:w-full transition-all duration-300"></span>
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-yellow-400 group-hover:w-full transition-all duration-300"></span>
                 </Link>
                 <Link href="/membership" className="text-slate-700 hover:text-blue-900 font-medium transition-colors relative group">
                   Membership
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gold-400 group-hover:w-full transition-all duration-300"></span>
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-yellow-400 group-hover:w-full transition-all duration-300"></span>
                 </Link>
                 <Link href="/contact" className="text-slate-700 hover:text-blue-900 font-medium transition-colors relative group">
                   Contact
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gold-400 group-hover:w-full transition-all duration-300"></span>
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-yellow-400 group-hover:w-full transition-all duration-300"></span>
                 </Link>
                 <Link 
                   href="/membership" 
-                  className="bg-gradient-to-r from-gold-500 to-gold-400 text-slate-900 px-6 py-3 rounded-xl font-bold hover:from-gold-400 hover:to-gold-300 transition-all duration-300 transform hover:scale-105 shadow-lg"
+                  className="bg-gradient-to-r from-yellow-500 to-yellow-400 text-slate-900 px-6 py-3 rounded-xl font-bold hover:from-yellow-400 hover:to-yellow-300 transition-all duration-300 transform hover:scale-105 shadow-lg"
                 >
                   Join Now
                 </Link>
@@ -136,11 +136,11 @@ export default function RootLayout({
                   and promoting the interests of small, medium, and micro enterprises across South Africa.
                 </p>
                 <div className="flex items-center space-x-2 text-sm">
-                  <svg className="w-5 h-5 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-yellow-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 7.89a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                   <span className="text-slate-400">Email:</span>
-                  <a href="mailto:justicesmme@gmail.com" className="text-gold-400 hover:text-gold-300 transition-colors font-medium">
+                  <a href="mailto:justicesmme@gmail.com" className="text-yellow-400 hover:text-yellow-300 transition-colors font-medium">
                     justicesmme@gmail.com
                   </a>
                 </div>
@@ -150,7 +150,7 @@ export default function RootLayout({
                 <h3 className="font-bold text-lg mb-6 text-white">Quick Links</h3>
                 <ul className="space-y-3">
                   <li>
-                    <Link href="/" className="text-slate-400 hover:text-gold-400 transition-colors flex items-center group">
+                    <Link href="/" className="text-slate-400 hover:text-yellow-400 transition-colors flex items-center group">
                       <svg className="w-4 h-4 mr-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                       </svg>
@@ -158,7 +158,7 @@ export default function RootLayout({
                     </Link>
                   </li>
                   <li>
-                    <Link href="/about" className="text-slate-400 hover:text-gold-400 transition-colors flex items-center group">
+                    <Link href="/about" className="text-slate-400 hover:text-yellow-400 transition-colors flex items-center group">
                       <svg className="w-4 h-4 mr-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                       </svg>
@@ -166,7 +166,7 @@ export default function RootLayout({
                     </Link>
                   </li>
                   <li>
-                    <Link href="/services" className="text-slate-400 hover:text-gold-400 transition-colors flex items-center group">
+                    <Link href="/services" className="text-slate-400 hover:text-yellow-400 transition-colors flex items-center group">
                       <svg className="w-4 h-4 mr-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                       </svg>
@@ -174,7 +174,7 @@ export default function RootLayout({
                     </Link>
                   </li>
                   <li>
-                    <Link href="/membership" className="text-slate-400 hover:text-gold-400 transition-colors flex items-center group">
+                    <Link href="/membership" className="text-slate-400 hover:text-yellow-400 transition-colors flex items-center group">
                       <svg className="w-4 h-4 mr-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                       </svg>
@@ -188,25 +188,25 @@ export default function RootLayout({
                 <h3 className="font-bold text-lg mb-6 text-white">Our Services</h3>
                 <ul className="space-y-3 text-slate-400">
                   <li className="flex items-center">
-                    <svg className="w-4 h-4 mr-2 text-gold-400" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-4 h-4 mr-2 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                     Legal Support
                   </li>
                   <li className="flex items-center">
-                    <svg className="w-4 h-4 mr-2 text-gold-400" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-4 h-4 mr-2 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                     Employment Relations
                   </li>
                   <li className="flex items-center">
-                    <svg className="w-4 h-4 mr-2 text-gold-400" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-4 h-4 mr-2 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                     Training & Consultancy
                   </li>
                   <li className="flex items-center">
-                    <svg className="w-4 h-4 mr-2 text-gold-400" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-4 h-4 mr-2 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                     Policy Advocacy
@@ -222,7 +222,7 @@ export default function RootLayout({
                 </div>
                 <div className="flex items-center space-x-6">
                   <div className="flex items-center text-sm text-slate-400">
-                    <svg className="w-4 h-4 mr-1 text-gold-400" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-4 h-4 mr-1 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.238.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                     Trusted & Verified

@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative text-white overflow-hidden h-[80vh] flex items-center">
+      <section className="relative text-white overflow-hidden min-h-[80vh] pt-20 md:pt-0 flex items-center">
         {/* Background Image */}
         <div className="absolute inset-0">
           <div 
@@ -20,60 +20,65 @@ export default function Home() {
         </div>
         
         {/* Floating Elements */}
-        <div className="absolute top-20 left-10 w-20 h-20 bg-gold-400/20 rounded-full blur-xl animate-pulse"></div>
+        <div className="absolute top-20 left-10 w-20 h-20 bg-yellow-400/20 rounded-full blur-xl animate-pulse"></div>
         <div className="absolute top-40 right-20 w-32 h-32 bg-blue-400/20 rounded-full blur-xl animate-pulse delay-1000"></div>
-        <div className="absolute bottom-20 left-1/4 w-16 h-16 bg-gold-300/20 rounded-full blur-xl animate-pulse delay-2000"></div>
+        <div className="absolute bottom-20 left-1/4 w-16 h-16 bg-yellow-300/20 rounded-full blur-xl animate-pulse delay-2000"></div>
         
-        <div className="relative container mx-auto px-6 py-8 lg:py-12">
+        <div className="relative container mx-auto px-4 pt-4 pb-8 md:py-12 lg:py-16">
           <div className="max-w-5xl mx-auto text-center">
             {/* Badge */}
-            <div className="inline-flex items-center bg-blue-800/50 backdrop-blur-sm border border-blue-400/20 rounded-full px-4 py-2 mb-6">
-              <svg className="w-4 h-4 mr-2 text-gold-400" fill="currentColor" viewBox="0 0 20 20">
+            <div className="inline-flex items-center bg-blue-800/50 backdrop-blur-sm border border-blue-400/20 rounded-full px-4 py-2 mb-4 md:mb-6">
+              <svg className="w-4 h-4 mr-2 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.238.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
               </svg>
               <span className="text-sm font-medium text-blue-100">Trusted by 500+ South African Businesses</span>
             </div>
 
-            <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
-              Your Partner for
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-gold-400 to-gold-300">
-                Business Success
+            <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold mb-3 md:mb-4 leading-tight">
+              <span className="block text-white mb-1">
+                Legal Representation &
+              </span>
+              <span className="block text-yellow-400 mb-2">
+                Business Advocacy
+              </span>
+              <span className="block text-blue-200 text-base sm:text-lg md:text-xl mt-1 md:mt-2">
+                for Small, Medium & Micro Enterprises
               </span>
             </h1>
             
-            <p className="text-lg md:text-xl mb-4 text-blue-100 font-medium">
+            <p className="text-base sm:text-lg md:text-xl mb-3 md:mb-4 text-yellow-300 font-bold">
               Justice for Small Medium & Micro Enterprises (JSMME)
             </p>
             
-            <p className="text-base md:text-lg mb-6 text-blue-200 max-w-4xl mx-auto leading-relaxed">
-              A voluntary, non-profit employers&apos; organisation providing comprehensive legal representation, 
-              strategic advocacy, and business support services specifically designed for SMEs across South Africa.
+            <p className="text-sm sm:text-base md:text-lg mb-4 md:mb-6 text-blue-100 max-w-4xl mx-auto leading-relaxed px-2">
+              We provide comprehensive legal representation, CCMA support, government lobbying, 
+              and business advocacy services specifically designed for SMEs across South Africa.
             </p>
 
             {/* What We Do Highlights */}
-            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 mb-8 border border-white/20 max-w-5xl mx-auto">
-              <p className="text-base text-white font-medium mb-3">Our Core Services:</p>
-              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-3">
+            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-3 md:p-4 mb-6 md:mb-8 border border-white/20 max-w-5xl mx-auto">
+              <p className="text-sm md:text-base text-white font-medium mb-2 md:mb-3">Our Core Services:</p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-3">
                 <div className="flex items-center text-blue-100">
-                  <svg className="w-4 h-4 text-gold-400 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-4 h-4 text-yellow-400 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
                   </svg>
                   <span className="text-xs font-medium">Legal Representation</span>
                 </div>
                 <div className="flex items-center text-blue-100">
-                  <svg className="w-4 h-4 text-gold-400 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-4 h-4 text-yellow-400 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
                   </svg>
                   <span className="text-xs font-medium">Government Advocacy</span>
                 </div>
                 <div className="flex items-center text-blue-100">
-                  <svg className="w-4 h-4 text-gold-400 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-4 h-4 text-yellow-400 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                   </svg>
                   <span className="text-xs font-medium">Training & Advisory</span>
                 </div>
                 <div className="flex items-center text-blue-100">
-                  <svg className="w-4 h-4 text-gold-400 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-4 h-4 text-yellow-400 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" clipRule="evenodd" />
                   </svg>
                   <span className="text-xs font-medium">Compliance Support</span>
@@ -81,25 +86,25 @@ export default function Home() {
               </div>
             </div>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
+            <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center mb-4 md:mb-6 px-2">
               <Link 
                 href="/membership" 
-                className="group bg-gradient-to-r from-gold-500 to-gold-400 text-slate-900 px-6 py-3 rounded-xl font-bold hover:from-gold-400 hover:to-gold-300 transition-all duration-300 transform hover:scale-105 shadow-lg"
+                className="group bg-yellow-500 hover:bg-yellow-400 text-slate-900 px-6 py-3 md:px-8 md:py-4 rounded-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-xl border-2 border-yellow-400"
               >
-                <span className="flex items-center justify-center">
-                  Become a Member
-                  <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <span className="flex items-center justify-center text-sm md:text-base">
+                  🎯 Become a Member
+                  <svg className="w-4 h-4 md:w-5 md:h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                   </svg>
                 </span>
               </Link>
               <Link 
                 href="/services" 
-                className="group border-2 border-blue-300/50 text-white px-6 py-3 rounded-xl font-bold hover:bg-white hover:text-slate-900 transition-all duration-300 backdrop-blur-sm"
+                className="group bg-blue-600 hover:bg-blue-500 text-white px-6 py-3 md:px-8 md:py-4 rounded-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-xl border-2 border-blue-400"
               >
-                <span className="flex items-center justify-center">
-                  Learn More
-                  <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <span className="flex items-center justify-center text-sm md:text-base">
+                  📋 Learn More
+                  <svg className="w-4 h-4 md:w-5 md:h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </span>
@@ -109,19 +114,19 @@ export default function Home() {
             {/* Stats */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto">
               <div className="text-center">
-                <div className="text-2xl font-bold text-gold-400 mb-1">500+</div>
+                <div className="text-2xl font-bold text-yellow-400 mb-1">500+</div>
                 <div className="text-xs text-blue-200">Member Businesses</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-gold-400 mb-1">11</div>
+                <div className="text-2xl font-bold text-yellow-400 mb-1">11</div>
                 <div className="text-xs text-blue-200">Industry Sectors</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-gold-400 mb-1">24/7</div>
+                <div className="text-2xl font-bold text-yellow-400 mb-1">24/7</div>
                 <div className="text-xs text-blue-200">Legal Support</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-gold-400 mb-1">10+</div>
+                <div className="text-2xl font-bold text-yellow-400 mb-1">10+</div>
                 <div className="text-xs text-blue-200">Years Experience</div>
               </div>
             </div>
