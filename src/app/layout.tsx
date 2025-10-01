@@ -132,7 +132,7 @@ export default function RootLayout({
                   />
                 </div>
                 <p className="text-slate-300 mb-6 max-w-md leading-relaxed">
-                  A voluntary, non-profit employers' organisation dedicated to protecting 
+                  A voluntary, non-profit employers&apos; organisation dedicated to protecting 
                   and promoting the interests of small, medium, and micro enterprises across South Africa.
                 </p>
                 <div className="flex items-center space-x-2 text-sm">
