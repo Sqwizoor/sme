@@ -36,7 +36,7 @@ export default function Home() {
 
             <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold mb-3 md:mb-4 leading-tight">
               <span className="block text-white mb-1">
-                Legal Representation &
+                Industrial Relations &
               </span>
               <span className="block text-yellow-400 mb-2">
                 Business Advocacy
@@ -51,7 +51,7 @@ export default function Home() {
             </p>
             
             <p className="text-sm sm:text-base md:text-lg mb-4 md:mb-6 text-blue-100 max-w-4xl mx-auto leading-relaxed px-2">
-              We provide comprehensive legal representation, CCMA support, government lobbying, 
+              We provide comprehensive industrial relations, CCMA support, government lobbying, 
               and business advocacy services specifically designed for SMEs across South Africa.
             </p>
 
@@ -63,7 +63,7 @@ export default function Home() {
                   <svg className="w-4 h-4 text-yellow-400 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
                   </svg>
-                  <span className="text-xs font-medium">Legal Representation</span>
+                  <span className="text-xs font-medium">Industrial Relations</span>
                 </div>
                 <div className="flex items-center text-blue-100">
                   <svg className="w-4 h-4 text-yellow-400 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
@@ -374,13 +374,13 @@ export default function Home() {
               </span>
             </h2>
             <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed">
-              From legal representation to strategic advocacy, we provide the comprehensive 
+              From industrial relations to strategic advocacy, we provide the comprehensive 
               services SMEs need to thrive in today&apos;s competitive business environment.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-            {/* Legal Representation */}
+            {/* Industrial Relations */}
             <div className="group bg-gradient-to-br from-slate-50 to-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 border border-slate-100 hover:border-blue-200">
               <div className="bg-gradient-to-br from-blue-500 to-blue-600 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -388,7 +388,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-2xl font-bold mb-4 text-slate-900 group-hover:text-blue-600 transition-colors">
-                Legal Representation & Dispute Resolution
+                Industrial Relations & Dispute Resolution
               </h3>
               <p className="text-slate-600 mb-6 leading-relaxed">
                 Expert legal support for employment matters, CCMA proceedings, labour court representation, 
@@ -657,7 +657,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold mb-3 text-slate-900 group-hover:text-blue-600 transition-colors">
-                Expert Legal Representation
+                Expert Industrial Relations
               </h3>
               <p className="text-slate-600 leading-relaxed">
                 Professional CCMA representation, labour court proceedings, and comprehensive workplace dispute resolution. 
