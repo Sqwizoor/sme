@@ -86,7 +86,7 @@ export default function Home() {
               </div>
             </div>
             
-            <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center mb-4 md:mb-6 px-2">
+            <div className="flex flex-col sm:flex-row gap-3 md: gap-4 justify-center mb-4 md:mb-6 px-2">
               <Link 
                 href="/membership" 
                 className="group bg-brown-600 hover:bg-brown-500 text-white px-6 py-3 md:px-8 md:py-4 rounded-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-xl border-2 border-brown-500"
@@ -168,7 +168,7 @@ export default function Home() {
             <div className="mb-16">
               <h3 className="text-3xl font-bold text-slate-900 mb-6">VISION</h3>
               <p className="text-slate-700 leading-relaxed text-lg">
-                To be recognised as a one stop industrial and human relations shop that promotes SMME Owners' economic interests in ever-changing complex labour environment,
+                To be recognised as a one stop industrial and human relations shop that promotes SMME Owners&apos; economic interests in ever-changing complex labour environment,
               </p>
             </div>
 
@@ -192,7 +192,7 @@ export default function Home() {
             <div className="mb-16">
               <h3 className="text-3xl font-bold text-slate-900 mb-6">LEGAL STATUS</h3>
               <p className="text-slate-700 leading-relaxed text-lg">
-                The JSMME is a voluntary, non-profit employers' organisation with a corporate personality, distinct from its members , can enter into contracts, sue or be sued in its own name, liable for its debts and commitments, can own  its property and continue to exist notwithstanding changes in the composition of its membership.
+                The JSMME is a voluntary, non-profit employers&apos; organisation with a corporate personality, distinct from its members , can enter into contracts, sue or be sued in its own name, liable for its debts and commitments, can own  its property and continue to exist notwithstanding changes in the composition of its membership.
               </p>
             </div>
 
@@ -226,7 +226,7 @@ export default function Home() {
 
                 <div className="bg-slate-50 p-6 rounded-xl border-l-4 border-brown-600">
                   <h4 className="font-bold text-slate-900 text-lg mb-2">5. Retrenchments:</h4>
-                  <p className="text-slate-700 leading-relaxed">represent members on "no fault dismissal' where employer needs to reduce number of employees due to operational reasons caused by financial inadequacy, technological advancement or restructuring</p>
+                  <p className="text-slate-700 leading-relaxed">represent members on &quot;no fault dismissal&apos; where employer needs to reduce number of employees due to operational reasons caused by financial inadequacy, technological advancement or restructuring</p>
                 </div>
 
                 <div className="bg-slate-50 p-6 rounded-xl border-l-4 border-brown-600">
@@ -285,7 +285,7 @@ export default function Home() {
             <div className="mb-16 bg-gradient-to-br from-brown-50 to-slate-50 p-8 rounded-2xl">
               <h3 className="text-3xl font-bold text-slate-900 mb-6 text-center">SMME CLINIC</h3>
               <p className="text-slate-700 leading-relaxed text-lg mb-8">
-                The JSMME has established a long term service level agreement with a company known  as SMME CLINIC in its dedication to serve the best interest of the SMME's as the services rendered by one of these entities lead to another.
+                The JSMME has established a long term service level agreement with a company known  as SMME CLINIC in its dedication to serve the best interest of the SMME&apos;s as the services rendered by one of these entities lead to another.
               </p>
               
               <p className="text-slate-700 leading-relaxed text-lg font-semibold mb-6">
