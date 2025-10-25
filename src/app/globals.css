@@ -13,6 +13,16 @@
   --gold-400: #eab308;
   --gold-500: #ca8a04;
   --gold-600: #a16207;
+  --brown-50: #fdf8f6;
+  --brown-100: #f2e8e5;
+  --brown-200: #eaddd7;
+  --brown-300: #e0cec7;
+  --brown-400: #d2bab0;
+  --brown-500: #bfa094;
+  --brown-600: #a18072;
+  --brown-700: #846358;
+  --brown-800: #6f5347;
+  --brown-900: #5c4539;
 }
 
 body {
@@ -48,6 +58,46 @@ body {
 
 .border-gold-400 { border-color: var(--gold-400); }
 .shadow-gold-500\/25 { box-shadow: 0 25px 50px -12px rgba(202, 138, 4, 0.25); }
+
+/* Brown color classes */
+.text-brown-50 { color: var(--brown-50); }
+.text-brown-100 { color: var(--brown-100); }
+.text-brown-200 { color: var(--brown-200); }
+.text-brown-300 { color: var(--brown-300); }
+.text-brown-400 { color: var(--brown-400); }
+.text-brown-500 { color: var(--brown-500); }
+.text-brown-600 { color: var(--brown-600); }
+.text-brown-700 { color: var(--brown-700); }
+.text-brown-800 { color: var(--brown-800); }
+.text-brown-900 { color: var(--brown-900); }
+
+.bg-brown-50 { background-color: var(--brown-50); }
+.bg-brown-100 { background-color: var(--brown-100); }
+.bg-brown-200 { background-color: var(--brown-200); }
+.bg-brown-300 { background-color: var(--brown-300); }
+.bg-brown-400 { background-color: var(--brown-400); }
+.bg-brown-500 { background-color: var(--brown-500); }
+.bg-brown-600 { background-color: var(--brown-600); }
+.bg-brown-700 { background-color: var(--brown-700); }
+.bg-brown-800 { background-color: var(--brown-800); }
+.bg-brown-900 { background-color: var(--brown-900); }
+
+.from-brown-500 { --tw-gradient-from: var(--brown-500); }
+.from-brown-600 { --tw-gradient-from: var(--brown-600); }
+.from-brown-700 { --tw-gradient-from: var(--brown-700); }
+.from-brown-800 { --tw-gradient-from: var(--brown-800); }
+.to-brown-400 { --tw-gradient-to: var(--brown-400); }
+.to-brown-500 { --tw-gradient-to: var(--brown-500); }
+.to-brown-600 { --tw-gradient-to: var(--brown-600); }
+.to-brown-700 { --tw-gradient-to: var(--brown-700); }
+
+.border-brown-200 { border-color: var(--brown-200); }
+.border-brown-400 { border-color: var(--brown-400); }
+.border-brown-500 { border-color: var(--brown-500); }
+.hover\:border-brown-400:hover { border-color: var(--brown-400); }
+.hover\:border-brown-500:hover { border-color: var(--brown-500); }
+
+.shadow-brown-500\/25 { box-shadow: 0 25px 50px -12px rgba(191, 160, 148, 0.25); }
 
 /* Smooth scrolling */
 html {
@@ -95,7 +145,7 @@ button:focus,
 a:focus,
 input:focus,
 textarea:focus {
-  outline: 2px solid #3b82f6;
+  outline: 2px solid var(--brown-600);
   outline-offset: 2px;
 }
 

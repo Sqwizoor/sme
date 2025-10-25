@@ -1,3 +1,5 @@
+import ContactForm from './ContactForm';
+
 export default function Contact() {
   return (
     <div className="min-h-screen">
@@ -148,176 +150,14 @@ export default function Contact() {
               {/* Contact Form */}
               <div id="membership-form" className="bg-gray-50 rounded-xl p-8">
                 <h3 className="text-2xl font-bold mb-6 text-gray-900">Send us a Message</h3>
-                <div className="bg-blue-100 border-l-4 border-blue-500 p-4 mb-6">
-                  <p className="text-blue-800 text-sm">
+                <div className="bg-amber-100 border-l-4 border-amber-500 p-4 mb-6">
+                  <p className="text-amber-800 text-sm">
                     <strong>💡 Tip:</strong> For membership applications, select &quot;Membership Inquiry&quot; as your subject 
                     and include details about your business size, sector, and specific needs.
                   </p>
                 </div>
                 
-                <form className="space-y-6">
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div>
-                      <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-2">
-                        First Name *
-                      </label>
-                      <input
-                        type="text"
-                        id="firstName"
-                        name="firstName"
-                        required
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                        placeholder="Your first name"
-                      />
-                    </div>
-                    <div>
-                      <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 mb-2">
-                        Last Name *
-                      </label>
-                      <input
-                        type="text"
-                        id="lastName"
-                        name="lastName"
-                        required
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                        placeholder="Your last name"
-                      />
-                    </div>
-                  </div>
-
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                      Email Address *
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                      placeholder="your.email@example.com"
-                    />
-                  </div>
-
-                  <div>
-                    <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-2">
-                      Company/Organization *
-                    </label>
-                    <input
-                      type="text"
-                      id="company"
-                      name="company"
-                      required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                      placeholder="Your company name"
-                    />
-                  </div>
-
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div>
-                      <label htmlFor="businessType" className="block text-sm font-medium text-gray-700 mb-2">
-                        Business Type
-                      </label>
-                      <select
-                        id="businessType"
-                        name="businessType"
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                      >
-                        <option value="">Select business type</option>
-                        <option value="sole-proprietorship">Sole Proprietorship</option>
-                        <option value="closed-corporation">Closed Corporation</option>
-                        <option value="private-company">Private Company</option>
-                        <option value="partnership">Partnership</option>
-                        <option value="trust">Trust</option>
-                        <option value="other">Other</option>
-                      </select>
-                    </div>
-                    <div>
-                      <label htmlFor="employees" className="block text-sm font-medium text-gray-700 mb-2">
-                        Number of Employees
-                      </label>
-                      <select
-                        id="employees"
-                        name="employees"
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                      >
-                        <option value="">Select range</option>
-                        <option value="1-5">1-5 employees</option>
-                        <option value="6-20">6-20 employees</option>
-                        <option value="21-50">21-50 employees</option>
-                        <option value="51-100">51-100 employees</option>
-                        <option value="101-500">101-500 employees</option>
-                        <option value="500+">500+ employees</option>
-                      </select>
-                    </div>
-                  </div>
-
-                  <div>
-                    <label htmlFor="sector" className="block text-sm font-medium text-gray-700 mb-2">
-                      Business Sector
-                    </label>
-                    <select
-                      id="sector"
-                      name="sector"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    >
-                      <option value="">Select your sector</option>
-                      <option value="agriculture">Agriculture</option>
-                      <option value="mining">Mining & Quarrying</option>
-                      <option value="manufacturing">Manufacturing</option>
-                      <option value="security">Private Security</option>
-                      <option value="construction">Construction</option>
-                      <option value="funeral">Funeral Parlours</option>
-                      <option value="wholesale-retail">Wholesale & Retail</option>
-                      <option value="community">Community Services</option>
-                      <option value="financial">Financial & Business Services</option>
-                      <option value="ict">ICT Sector</option>
-                      <option value="informal">Informal Sector</option>
-                      <option value="other">Other</option>
-                    </select>
-                  </div>
-
-                  <div>
-                    <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
-                      Subject *
-                    </label>
-                    <select
-                      id="subject"
-                      name="subject"
-                      required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    >
-                      <option value="">Select a subject</option>
-                      <option value="membership">Membership Inquiry</option>
-                      <option value="services">Services Information</option>
-                      <option value="legal">Legal Support</option>
-                      <option value="training">Training Programs</option>
-                      <option value="general">General Information</option>
-                      <option value="other">Other</option>
-                    </select>
-                  </div>
-
-                  <div>
-                    <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                      Message *
-                    </label>
-                    <textarea
-                      id="message"
-                      name="message"
-                      rows={5}
-                      required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                      placeholder="Please provide details about your inquiry..."
-                    ></textarea>
-                  </div>
-
-                  <button
-                    type="submit"
-                    className="w-full bg-blue-900 text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-800 transition-colors focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
-                  >
-                    Send Message
-                  </button>
-                </form>
+                <ContactForm />
               </div>
             </div>
           </div>
