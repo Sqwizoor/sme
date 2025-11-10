@@ -140,6 +140,15 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5em;
 }
 
+/* Brand utilities */
+.brand-icon { @apply text-amber-600 transition-colors duration-200; }
+.brand-icon-soft { @apply text-amber-500; }
+.brand-underline { @apply underline decoration-amber-600/50 underline-offset-4; }
+.brand-italic { @apply italic; }
+
+/* Headings enhancer */
+.brand-display { font-family: var(--font-playfair), Georgia, 'Times New Roman', serif; }
+
 /* Focus states for accessibility */
 button:focus, 
 a:focus,

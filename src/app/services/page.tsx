@@ -2,11 +2,11 @@ export default function Services() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-900 to-blue-700 text-white py-20">
+  <section className="bg-gradient-to-br from-brown-900 to-brown-700 text-white py-20">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">Our Services</h1>
-            <p className="text-xl md:text-2xl mb-8 text-blue-100">
+            <p className="text-xl md:text-2xl mb-8 text-brown-100 brand-display italic">
               Comprehensive support services designed specifically for SMEs
             </p>
           </div>
@@ -22,7 +22,7 @@ export default function Services() {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Legal Support */}
               <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-                <div className="text-blue-600 text-4xl mb-4">⚖️</div>
+                <div className="text-amber-600 text-4xl mb-4 brand-display">⚖️</div>
                 <h3 className="text-2xl font-bold mb-4 text-gray-900">Legal Support</h3>
                 <ul className="space-y-2 text-gray-600">
                   <li>• Employment contract drafting</li>
@@ -35,7 +35,7 @@ export default function Services() {
 
               {/* Employment Relations */}
               <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-                <div className="text-blue-600 text-4xl mb-4">🤝</div>
+                <div className="text-amber-600 text-4xl mb-4 brand-display">🤝</div>
                 <h3 className="text-2xl font-bold mb-4 text-gray-900">Employment Relations</h3>
                 <ul className="space-y-2 text-gray-600">
                   <li>• Workplace grievance resolution</li>
@@ -48,7 +48,7 @@ export default function Services() {
 
               {/* Training & Development */}
               <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-                <div className="text-blue-600 text-4xl mb-4">📚</div>
+                <div className="text-amber-600 text-4xl mb-4 brand-display">📚</div>
                 <h3 className="text-2xl font-bold mb-4 text-gray-900">Training & Development</h3>
                 <ul className="space-y-2 text-gray-600">
                   <li>• Compliance training</li>
@@ -61,7 +61,7 @@ export default function Services() {
 
               {/* Policy Advocacy */}
               <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-                <div className="text-blue-600 text-4xl mb-4">📢</div>
+                <div className="text-amber-600 text-4xl mb-4 brand-display">📢</div>
                 <h3 className="text-2xl font-bold mb-4 text-gray-900">Policy Advocacy</h3>
                 <ul className="space-y-2 text-gray-600">
                   <li>• Government lobbying</li>
@@ -74,7 +74,7 @@ export default function Services() {
 
               {/* Risk Management */}
               <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-                <div className="text-blue-600 text-4xl mb-4">🛡️</div>
+                <div className="text-amber-600 text-4xl mb-4 brand-display">🛡️</div>
                 <h3 className="text-2xl font-bold mb-4 text-gray-900">Risk Management</h3>
                 <ul className="space-y-2 text-gray-600">
                   <li>• Compliance audits</li>
@@ -87,7 +87,7 @@ export default function Services() {
 
               {/* Business Support */}
               <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-                <div className="text-blue-600 text-4xl mb-4">💼</div>
+                <div className="text-amber-600 text-4xl mb-4 brand-display">💼</div>
                 <h3 className="text-2xl font-bold mb-4 text-gray-900">Business Support</h3>
                 <ul className="space-y-2 text-gray-600">
                   <li>• Strategic consulting</li>
@@ -110,7 +110,7 @@ export default function Services() {
             
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white rounded-xl p-8 shadow-lg">
-                <h3 className="text-2xl font-bold mb-4 text-blue-900">Bargaining Council Representation</h3>
+                <h3 className="text-2xl font-bold mb-4 text-amber-700 brand-display italic">Bargaining Council Representation</h3>
                 <p className="text-gray-700 mb-4">
                   JSMME represents member interests on bargaining and statutory councils, 
                   ensuring your voice is heard in industry-wide negotiations and decisions.
