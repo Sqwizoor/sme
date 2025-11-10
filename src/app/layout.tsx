@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Playfair_Display } from "next/font/google";
 import Link from "next/link";
 import Image from "next/image";
 import "./globals.css";
+import Navigation from "./components/Navigation";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,60 +37,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} antialiased`}
       >
-        <nav className="bg-white sticky top-0 z-50 shadow-sm">
-          <div className="container mx-auto px-6">
-            <div className="flex justify-between items-center py-2">
-              <Link href="/" className="flex items-center">
-                <Image
-                  src="/sme-logo.jpeg"
-                  alt="JSMME Logo"
-                  width={240}
-                  height={80}
-                  className="h-16 w-auto object-contain"
-                  priority
-                />
-              </Link>
-              
-              <div className="hidden md:flex items-center space-x-8">
-                <Link href="/" className="text-slate-700 hover:text-amber-700 font-medium transition-colors relative group">
-                  Home
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-amber-500 group-hover:w-full transition-all duration-300"></span>
-                </Link>
-                <Link href="/about" className="text-slate-700 hover:text-amber-700 font-medium transition-colors relative group">
-                  About
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-amber-500 group-hover:w-full transition-all duration-300"></span>
-                </Link>
-                <Link href="/services" className="text-slate-700 hover:text-amber-700 font-medium transition-colors relative group">
-                  Services
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-amber-500 group-hover:w-full transition-all duration-300"></span>
-                </Link>
-                <Link href="/membership" className="text-slate-700 hover:text-amber-700 font-medium transition-colors relative group">
-                  Membership
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-amber-500 group-hover:w-full transition-all duration-300"></span>
-                </Link>
-                <Link href="/contact" className="text-slate-700 hover:text-amber-700 font-medium transition-colors relative group">
-                  Contact
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-amber-500 group-hover:w-full transition-all duration-300"></span>
-                </Link>
-                <Link 
-                  href="/membership" 
-                  className="bg-gradient-to-r from-amber-600 to-amber-500 text-white px-6 py-3 rounded-xl font-bold hover:from-amber-500 hover:to-amber-400 transition-all duration-300 transform hover:scale-105 shadow-lg"
-                >
-                  Join Now
-                </Link>
-              </div>
-              
-              {/* Mobile menu button */}
-              <div className="md:hidden">
-                <button className="text-slate-700 hover:text-amber-700 p-2">
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </div>
-        </nav>
+        <Navigation />
         
         <main>
           {children}

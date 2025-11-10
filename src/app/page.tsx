@@ -103,7 +103,7 @@ export default function Home() {
  
       {/* Restored Content: From FOCUSES onward */}
       <section className="py-24 bg-white">
-        <div className="container mx-auto px-6 max-w-7xl">
+        <div className="container mx-auto px-3 md:px-6 max-w-7xl">
           <div className="prose prose-lg max-w-none">
 
             {/* Vision/Mission/Values/Legal Status Cards */}
