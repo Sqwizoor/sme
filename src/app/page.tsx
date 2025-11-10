@@ -31,12 +31,12 @@ export default function Home() {
         <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-amber-400/50 to-transparent"></div>
         <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-amber-400/50 to-transparent"></div>
         
-        <div className="relative container mx-auto px-4 py-6 md:py-8">
+        <div className="relative container mx-auto px-4 py-3 md:py-8">
           <div className="max-w-5xl mx-auto text-center">
            
 
-            <h1 className="brand-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-5 leading-tight">
-              <span className="block text-white text-xl sm:text-2xl md:text-3xl mb-1">
+            <h1 className="brand-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-1 md:mb-5 leading-tight">
+              <span className="block text-white text-xl sm:text-2xl md:text-3xl md:mb-1">
                 <em className="not-italic md:italic">Welcome</em>
               </span>
               <span className="block text-amber-600 text-lg sm:text-xl md:text-2xl mb-2">
