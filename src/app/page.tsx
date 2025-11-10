@@ -113,7 +113,7 @@ export default function Home() {
                 <div className="group bg-gradient-to-br from-white via-amber-50/30 to-amber-100/50 rounded-2xl p-8 border-2 border-amber-400/60 shadow-lg hover:shadow-2xl hover:border-amber-500 transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02]">
                   <h3 className="brand-display italic text-2xl font-bold text-amber-600 mb-4 group-hover:text-amber-700 transition-colors">VISION</h3>
                   <p className="text-slate-700 leading-relaxed">
-                    To be recognised as a one stop industrial and human relations shop that promotes SMME Owners' economic interests in ever-changing complex labour environment,
+                    To be recognised as a one stop industrial and human relations shop that promotes SMME Owners&apos; economic interests in ever-changing complex labour environment,
                   </p>
                 </div>
 
@@ -137,7 +137,7 @@ export default function Home() {
                 <div className="group bg-gradient-to-br from-white via-amber-50/30 to-amber-100/50 rounded-2xl p-8 border-2 border-amber-400/60 shadow-lg hover:shadow-2xl hover:border-amber-500 transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02]">
                   <h3 className="brand-display italic text-2xl font-bold text-amber-600 mb-4 group-hover:text-amber-700 transition-colors">LEGAL STATUS</h3>
                   <p className="text-slate-700 leading-relaxed">
-                    The JSMME is a voluntary, non-profit employers' organisation with a corporate personality, distinct from its members , can enter into contracts, sue or be sued in its own name, liable for its debts and commitments, can own  its property and continue to exist notwithstanding changes in the composition of its membership.
+                    The JSMME is a voluntary, non-profit employers&apos; organisation with a corporate personality, distinct from its members , can enter into contracts, sue or be sued in its own name, liable for its debts and commitments, can own  its property and continue to exist notwithstanding changes in the composition of its membership.
                   </p>
                 </div>
               </div>
@@ -196,7 +196,7 @@ export default function Home() {
                   <div className="bg-white/80 p-5 rounded-xl border-l-4 border-amber-500">
                     <h4 className="font-bold text-amber-700 text-lg mb-2">5. Retrenchments</h4>
                     <p className="text-slate-700 leading-relaxed">
-                      Advise and represent members on "no fault dismissal" where employer needs to reduce number of employees due to operational reasons caused by financial inadequacy, technological advancement or restructuring.
+                      Advise and represent members on &quot;no fault dismissal&quot; where employer needs to reduce number of employees due to operational reasons caused by financial inadequacy, technological advancement or restructuring.
                     </p>
                   </div>
                   
@@ -427,7 +427,7 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-slate-700 leading-relaxed mb-4">
-                  The JSMME has established a long term service level agreement with a company known as <strong>SMME CLINIC</strong> in its dedication to serve the best interest of the SMME's as the services rendered by one of these entities lead to another.
+                  The JSMME has established a long term service level agreement with a company known as <strong>SMME CLINIC</strong> in its dedication to serve the best interest of the SMME&apos;s as the services rendered by one of these entities lead to another.
                 </p>
                 <p className="text-slate-700 leading-relaxed">
                   This strategic partnership ensures our members receive end-to-end assistance across all business functions, from legal compliance to market expansion, creating a seamless support ecosystem for SMME growth and sustainability.
