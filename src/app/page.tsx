@@ -62,7 +62,7 @@ export default function Home() {
               </p>
 
               <p className="text-sm sm:text-base md:text-lg mb-3 md:mb-4 text-white leading-relaxed">
-                stand firm-protecting South African employers at the frontline of industrial labour disputes, Collective Bargaining, and Compliance Demands.
+                stand firm-protecting South African employers at the frontline of industrial labour disputes, collective bargaining, and compliance demands.
               </p>
 
 
