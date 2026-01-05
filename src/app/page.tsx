@@ -58,7 +58,7 @@ export default function Home() {
 
 
               <p className="text-sm sm:text-base md:text-lg mb-3 md:mb-4 text-white leading-relaxed">
-                advocates and empowers small enterprises across South Africa to thrive in a fair and balanced labour environment.
+                advocates and empowers small enterprises across South Africa to thrive in an ever-evolving labour environment that is charecterised by complex interplay of relationships between employers, employees, trade unions.
               </p>
 
               <p className="text-sm sm:text-base md:text-lg mb-3 md:mb-4 text-white leading-relaxed">
