@@ -53,11 +53,23 @@ export default function Home() {
               </h2>
               
               <p className="text-sm sm:text-base md:text-lg mb-3 md:mb-4 text-white leading-relaxed">
-                JSE is an employer’s organisation that provide comprehensive Industrial Relations, Human Resource Advancement, Government Lobbying, and Business Advocacy services specifically designed for SMMEs across South Africa.
+                JSE is a non-profit Employers Organisation registered with the Department of Employment and Labour, with a focus on being the ‘The Voice of the Employer’ in an everyday labour law environment.
+              </p>
+              
+              <p className="text-sm sm:text-base md:text-lg mb-3 md:mb-4 text-white leading-relaxed">
+                stand firm-protecting South African employers at the frontline of industrial labour disputes, Collective Bargaining, and Compliance Demands.
+              </p>
+
+              <p className="text-sm sm:text-base md:text-lg mb-3 md:mb-4 text-white leading-relaxed">
+                advocates and empowers small enterprises across South Africa to thrive in a fair and balanced labour environment.
+              </p>
+
+              <p className="text-sm sm:text-base md:text-lg mb-3 md:mb-4 text-white leading-relaxed">
+                encourage and support employers to build workplaces that are just, sustainable, and future-fit-where the conditions of employment serve both productivity and human dignity.
               </p>
               
               <p className="text-sm sm:text-base md:text-lg text-slate-100 leading-relaxed">
-                JSE work in collaboration with other entities that share its ideals of supporting SMMEs by promoting their interests locally, regionally, nationally and internationally.
+                By becoming a member of JSE, small businesses gain access to extensive experience, vast industry knowledge and a strong network of employers and key role players in the industry.
               </p>
             </div>
             
