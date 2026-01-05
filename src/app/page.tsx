@@ -71,9 +71,7 @@ export default function Home() {
                 encourage and support employers to build workplaces that are just, sustainable, and future-fit-where the conditions of employment serve both productivity and human dignity.
               </p>
 
-              <p className="text-sm sm:text-base md:text-lg text-slate-100 leading-relaxed">
-                By becoming a member of JSE, small businesses gain access to extensive experience, vast industry knowledge and a strong network of employers and key role players in the industry.
-              </p>
+
             </div>
 
             <div className="flex flex-col sm:flex-row gap-2 md:gap-3 justify-center mb-3 md:mb-4 px-2">
@@ -119,7 +117,9 @@ export default function Home() {
           <div className="text-center mb-12">
             <h2 className="brand-display italic text-4xl font-bold text-amber-600 mb-4">Our Core Services</h2>
             <p className="text-slate-600 text-lg max-w-3xl mx-auto">
-              Comprehensive support designed for SMMEs
+
+              By becoming a member of JSE, small businesses gain access to extensive experience, vast industry knowledge and a strong network of employers and key role players in the industry.
+
             </p>
           </div>
 
