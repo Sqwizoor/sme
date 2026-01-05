@@ -263,6 +263,13 @@ export default function Home() {
                     Foster collective efficiency through networking to help overcome market access challenges and increase market penetration with aim to boost the participation of rural and township-based enterprises.
                   </p>
                 </div>
+
+                <div className="bg-white/80 p-5 rounded-xl border-l-4 border-amber-500">
+                  <h4 className="font-bold text-amber-700 text-lg mb-2">Collective Agreements</h4>
+                  <p className="text-slate-700 leading-relaxed">
+                    Negotiate and agree upon collective agreements with trade unions, determining the terms and conditions of employment for security personnel.
+                  </p>
+                </div>
               </div>
             </div>
 
