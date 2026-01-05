@@ -118,7 +118,7 @@ export default function Home() {
             <h2 className="brand-display italic text-4xl font-bold text-amber-600 mb-4">Our Core Services</h2>
             <p className="text-slate-600 text-lg max-w-3xl mx-auto">
 
-              By becoming a member of JSE, small businesses gain access to extensive experience, vast industry knowledge and a strong network of employers and key role players in the industry.
+              By becoming a member of JSE, small businesses gain access to extensive experience, vast industry knowledge, a strong network of employers, key role players in the industry. The following services
 
             </p>
           </div>
