@@ -180,13 +180,6 @@ export default function Home() {
                 </div>
                 
                 <div className="bg-white/80 p-5 rounded-xl border-l-4 border-amber-500">
-                  <h4 className="font-bold text-amber-700 text-lg mb-2">9. Collective Agreements</h4>
-                  <p className="text-slate-700 leading-relaxed">
-                    Negotiate and agree upon collective agreements with trade unions, determining the terms and conditions of employment for security personnel.
-                  </p>
-                </div>
-                
-                <div className="bg-white/80 p-5 rounded-xl border-l-4 border-amber-500">
                   <h4 className="font-bold text-amber-700 text-lg mb-2">9. Advice and Support</h4>
                   <p className="text-slate-700 leading-relaxed">
                     Offer guidance to members on labour legislation, policies, and the practical application of the Main Collective Agreement.
@@ -208,6 +201,13 @@ export default function Home() {
               </p>
               
               <div className="grid md:grid-cols-2 gap-4">
+                <div className="bg-white/80 p-5 rounded-xl border-l-4 border-amber-500">
+                  <h4 className="font-bold text-amber-700 text-lg mb-2">Collective Agreements</h4>
+                  <p className="text-slate-700 leading-relaxed">
+                    Negotiate and agree upon collective agreements with trade unions, determining the terms and conditions of employment for security personnel.
+                  </p>
+                </div>
+
                 <div className="bg-white/80 p-5 rounded-xl border-l-4 border-amber-500">
                   <h4 className="font-bold text-amber-700 text-lg mb-2">Workplace Engagement</h4>
                   <p className="text-slate-700 leading-relaxed">
