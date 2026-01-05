@@ -5,7 +5,7 @@ export default function About() {
       <section className="bg-gradient-to-br from-blue-900 to-blue-700 text-white py-20">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">About JSMME</h1>
+            <h1 className="text-5xl md:text-6xl font-bold mb-6">About JSE</h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100">
               Understanding our mission, vision, and commitment to South African SMEs
             </p>
@@ -43,13 +43,13 @@ export default function About() {
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">What is JSMME?</h2>
+            <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">What is JSE?</h2>
             
             <div className="bg-white rounded-xl p-8 shadow-lg mb-8">
               <h3 className="text-2xl font-bold mb-4 text-blue-900">A Voluntary, Non-Profit Organisation</h3>
               <p className="text-lg text-gray-700 mb-6">
-                Justice for Small Medium & Micro Enterprises (JSMME) is a voluntary, non-profit employers&apos; 
-                organisation with continued existence, established to serve the interests of SMEs across South Africa.
+                JUSTICE FOR SMALL ENTERPRISES (JSE) is a voluntary, non-profit employers&apos; 
+                organisation with continued existence, established to serve the interests of SMMEs across South Africa.
               </p>
               
               <div className="grid md:grid-cols-2 gap-6">

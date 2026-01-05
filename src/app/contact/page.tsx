@@ -29,7 +29,7 @@ export default function Contact() {
                 <h2 className="text-3xl font-bold text-gray-900">Membership Application</h2>
               </div>
               <p className="text-lg text-gray-600 mb-6">
-                Ready to join JSMME? Use the form below to submit your membership application. 
+                Ready to join JSE? Use the form below to submit your membership application. 
                 Select &quot;Membership Inquiry&quot; in the subject field and provide your business details.
               </p>
               <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-700">
@@ -235,7 +235,7 @@ export default function Contact() {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-8 text-gray-900">Regional Coverage</h2>
             <p className="text-lg text-gray-700 mb-8">
-              JSMME serves businesses across South Africa with dedicated regional support, 
+              JSE serves businesses across South Africa with dedicated regional support, 
               including specialized coverage in Gauteng Province through our five regional directors.
             </p>
             

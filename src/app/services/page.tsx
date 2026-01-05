@@ -112,7 +112,7 @@ export default function Services() {
               <div className="bg-white rounded-xl p-8 shadow-lg">
                 <h3 className="text-2xl font-bold mb-4 text-amber-700 brand-display italic">Bargaining Council Representation</h3>
                 <p className="text-gray-700 mb-4">
-                  JSMME represents member interests on bargaining and statutory councils, 
+                  JSE represents member interests on bargaining and statutory councils, 
                   ensuring your voice is heard in industry-wide negotiations and decisions.
                 </p>
                 <ul className="space-y-2 text-gray-600">
@@ -209,7 +209,7 @@ export default function Services() {
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Access Our Services?</h2>
           <p className="text-xl text-blue-200 mb-8 max-w-2xl mx-auto">
-            Join JSMME today and gain access to comprehensive support services designed to help your business thrive.
+            Join JSE today and gain access to comprehensive support services designed to help your business thrive.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 

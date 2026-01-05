@@ -7,9 +7,9 @@ export default function Membership() {
       <section className="bg-gradient-to-br from-blue-900 to-blue-700 text-white py-20">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">Join JSMME</h1>
+            <h1 className="text-5xl md:text-6xl font-bold mb-6">Join JSE</h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100">
-              Become part of a powerful collective voice for SMEs
+              Become part of a powerful collective voice for SMMEs
             </p>
             <p className="text-lg text-blue-200 max-w-3xl mx-auto">
               Gain access to comprehensive support, advocacy, and representation 
@@ -177,7 +177,7 @@ export default function Membership() {
               <div className="bg-white rounded-2xl p-8 shadow-xl border-2 border-blue-100">
                 <h3 className="text-2xl font-bold mb-4 text-gray-900">Experience These Benefits Today</h3>
                 <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-                  Don&apos;t wait to secure your business&apos;s future. Join JSMME now and immediately access 
+                  Don&apos;t wait to secure your business&apos;s future. Join JSE now and immediately access 
                   all our comprehensive support services and member benefits.
                 </p>
                 <Link 
@@ -293,8 +293,8 @@ export default function Membership() {
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Join the Movement?</h2>
           <p className="text-xl text-blue-200 mb-8 max-w-2xl mx-auto">
-            Take the first step towards securing your business&apos;s future. Join JSMME today 
-            and become part of a powerful collective voice for SMEs.
+            Take the first step towards securing your business&apos;s future. Join JSE today 
+            and become part of a powerful collective voice for SMMEs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 

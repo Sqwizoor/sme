@@ -23,8 +23,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "JSMME - Justice for Small Medium & Micro Enterprises",
-  description: "A voluntary, non-profit employers&apos; organisation protecting and promoting the interests of SMEs across South Africa",
+  title: "JSE - JUSTICE FOR SMALL ENTERPRISES",
+  description: "A voluntary, non-profit employers&apos; organisation protecting and promoting the interests of SMMEs across South Africa",
 };
 
 export default function RootLayout({
@@ -59,7 +59,7 @@ export default function RootLayout({
                 <div className="mb-6">
                   <Image
                     src="/sme-logo.jpeg"
-                    alt="JSMME Logo"
+                    alt="JSE Logo"
                     width={300}
                     height={100}
                     className="h-20 w-auto object-contain"
@@ -152,7 +152,7 @@ export default function RootLayout({
             <div className="border-t border-slate-700/50 mt-12 pt-8">
               <div className="flex flex-col md:flex-row justify-between items-center">
                 <div className="text-slate-400 text-sm mb-4 md:mb-0">
-                  <p>&copy; 2024 Justice for Small Medium & Micro Enterprises (JSMME). All rights reserved.</p>
+                  <p>&copy; 2026 JUSTICE FOR SMALL ENTERPRISES (JSE). All rights reserved.</p>
                 </div>
                 <div className="flex items-center space-x-6">
                   <div className="flex items-center text-sm text-slate-400">

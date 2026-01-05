@@ -14,7 +14,7 @@ export default function Navigation() {
           <Link href="/" className="flex items-center">
             <Image
               src="/sme-logo.jpeg"
-              alt="JSMME Logo"
+              alt="JSE Logo"
               width={240}
               height={80}
               className="h-16 w-auto object-contain"
